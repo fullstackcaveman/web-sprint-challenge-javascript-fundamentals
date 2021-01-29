@@ -210,9 +210,25 @@ console.log(consume(2, 2, add)); // 4
 console.log(consume(10, 16, multiply)); // 160
 console.log(consume('Mary', 'Poppins', greeting)); // Hello Mary Poppins, nice to meet you!
 
-// ##########  VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV  #######################
-
 // 🦁💪 Stretch: If you haven't already, convert your array method callbacks into arrow functions - make sure you comment out this section before you submit your work 🦁💪
+
+// function lowerCaseNames(arr) {
+// 	const lowerCaseAnimals = arr.map((item) => item.animal_name.toLowerCase());
+
+// 	return lowerCaseAnimals;
+// }
+
+// function lowPopulationAnimals(arr) {
+// 	const lowPop = arr.filter((item) => item.population < 5);
+
+// 	return lowPop;
+// }
+
+// function USApop(arr) {
+// 	const totalPop = arr.reduce((acc, item) => acc + item.population, 0);
+
+// 	return totalPop;
+// }
 
 // 🐴🐴🐴 Topic 3: Prototypes 🐴🐴🐴 //
 //🐴🐴🐴 Task: You are to build a cuboid maker that can return values for a cuboid's volume or surface area. Cuboids are similar to cubes but do not have even sides. Follow the steps in order to accomplish this challenge. 🐴🐴🐴
