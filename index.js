@@ -194,8 +194,8 @@ function add(num1, num2) {
 
 // 🦁🦁🦁 Use multiply to return the product of two numbers 🦁🦁🦁
 
-function multiply(/*Your Code Here */) {
-	/*Your Code Here */
+function multiply(num1, num2) {
+	return num1 * num2;
 }
 
 // 🦁🦁🦁 Use greeting to accept a first and last name and return "Hello {first-name} {last-name}, nice to meet you!" 🦁🦁🦁
